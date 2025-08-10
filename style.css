@@ -1,0 +1,54 @@
+body {
+    background-image: url(assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.hh1{
+    color: rgb(6, 67, 3);
+}
+
+.inp1,.inp2 {
+    width: 150vh;
+    height: 7vh;
+    border-radius: 2vh;
+    text-align: center;
+    color: red;
+    border: 1px solid lightgreen;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.btn1 {
+    width: 30vh;
+    height: 7vh;
+    border-radius: 2vh;
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    color: white;
+    font-weight: 999;
+    font-size: 2vh;
+    margin-top: 8vh;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: rgb(34, 190, 34);
+    border-color: rgb(34, 190, 34);
+    transition: 0.4s ease-in;
+}
