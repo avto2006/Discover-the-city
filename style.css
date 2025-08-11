@@ -7,6 +7,10 @@ body {
     background-attachment: fixed;
 }
 
+.div1 {
+    color: red;
+}
+
 header {
     display: flex;
     justify-content: center;
